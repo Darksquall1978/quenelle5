@@ -35,11 +35,11 @@ timeout /t 1 /nobreak > nul
 
 robocopy maj\cmd\quenelle5 ./
 
-pause
+
 
 @echo off
 IF EXIST maj\cmd\quenelle5 RMDIR /s /q maj\cmd\quenelle5
-pause
+
 ::start maj\cmd\reparerfin.bat
 
 ::start launcher.exe
