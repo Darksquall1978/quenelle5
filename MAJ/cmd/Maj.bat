@@ -14,13 +14,8 @@ git pull
 ::@echo Mise a jour OK
 timeout /t 2 /nobreak > nul
 
-::RMDIR /s /q quenelle5
-
-::modif.bat
-
 cd..
 cd..
-::RMDIR /s /q Git
 
 start Launcher.exe
 exit
