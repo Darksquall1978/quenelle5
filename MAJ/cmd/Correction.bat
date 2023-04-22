@@ -3,7 +3,7 @@ Color 0A & Mode con cols=120 lines=100
 batbox /c 0X06 /d  
 @echo off
 IF EXIST maj\cmd\quenelle5 RMDIR /s /q maj\cmd\quenelle5
-timeout /t 1 /nobreak > nul
+timeout /t 2 /nobreak > nul
 git clone https://github.com/Darksquall1978/quenelle5.git 
 batbox /c 0X02 /d 
 cd..
