@@ -6,6 +6,7 @@ IF EXIST reparation.bat del reparation.bat
 IF EXIST modif.bat del modif.bat
 IF EXIST Reparer.bat del Reparer.bat
 IF EXIST Reparerfin.bat del Reparerfin.bat
+IF EXIST clone.bat del clone.bat
 
 git pull
 
