@@ -45,5 +45,5 @@ IF EXIST maj\cmd\quenelle5 RMDIR /s /q maj\cmd\quenelle5
 
 ::start maj\cmd\reparerfin.bat
 
-::start launcher.exe
+start launcher.exe
 exit
