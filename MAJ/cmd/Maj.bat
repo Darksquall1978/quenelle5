@@ -12,7 +12,7 @@ IF EXIST clone.bat del clone.bat
 git pull
 
 ::@echo Mise a jour OK
-timeout /t 3 /nobreak > nul
+timeout /t 2 /nobreak > nul
 
 ::RMDIR /s /q quenelle5
 
