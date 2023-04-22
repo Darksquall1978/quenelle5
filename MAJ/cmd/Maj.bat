@@ -5,6 +5,7 @@ IF EXIST "Maj GIT".bat del "Maj GIT".bat
 IF EXIST reparation.bat del reparation.bat
 IF EXIST modif.bat del modif.bat
 IF EXIST Reparer.bat del Reparer.bat
+IF EXIST Reparerfin.bat del Reparerfin.bat
 
 git pull
 
