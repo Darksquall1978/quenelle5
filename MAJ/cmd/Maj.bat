@@ -1,6 +1,7 @@
 @echo off
 Color 0e & Mode con cols=100 lines=40
 
+IF EXIST quenelle5 RMDIR /s /q quenelle5
 IF EXIST "Maj GIT".bat del "Maj GIT".bat
 IF EXIST reparation.bat del reparation.bat
 IF EXIST modif.bat del modif.bat
