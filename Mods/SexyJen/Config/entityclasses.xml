@@ -1,0 +1,55 @@
+<configs>
+	<append xpath="/entity_classes">
+
+<entity_class name="npcTraderJen" extends="npcTraderUMATemplate">    
+    <property name="Class" value="EntityTrader"/>    
+    <property name="Faction" value="trader"/>
+    <property name="NPCID" value="traderjen"/>
+        <property name="Tags" value="entity,npc,human,trader"/>
+    <property name="NavObject" value="trader" />
+    <property name="LootListAlive" value="traderNPC"/>
+    <property name="DanceType" value="1" />
+
+
+
+        <property name="Mesh" value="#@modfolder:Resources/SexyJen.unity3d?SexyJenNude"/> <!-- EDIT THIS LINE -->
+
+	<!-- begin comment
+
+	The above mesh property can be clothed with:
+		<property name="Mesh" value="#@modfolder:Resources/SexyJen.unity3d?SexyJen"/>
+
+	or nude:
+		<property name="Mesh" value="#@modfolder:Resources/SexyJen.unity3d?SexyJenNude"/>
+
+	end comment -->
+
+
+
+
+        <property name="AvatarController" value="AvatarZombie01Controller"/>
+        <property name="PhysicsBody"  value="mixamoConvertedStandard"/>
+        <property name="WalkType" value="7"/>
+        <property name="RootMotion"  value="TRUE"/>
+        <property name="HandItem" value="meleeHandZombie01"/>
+        <property name="HandItemCrawler" value="meleeHandZombie01"/>
+        <property name="RightHandJointName" value="RightHand"/>
+        <property name="ExperienceGain" value="313"/>
+        <property name="LootDropProb" value="0.05"/>
+        <property name="DeadBodyHitPoints" value="1000"/>
+    <effect_group name="Base Effects">    
+      <passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+      <passive_effect name="HealthMax" operation="base_set" value="150"/>
+      <passive_effect name="HealthMax" operation="perc_set" value="1"/>
+      <passive_effect name="StaminaMax" operation="base_set"  value="100"/>
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="0"/>
+    </effect_group>    
+    <!-- Begin Off Template Changes -->    
+        <property name="Mass" value="200"/>
+        <property name="Weight" value="200"/>    
+    <property name="SizeScale" value="1"/> 
+    <property name="ModelType" value="Standard"/>    
+</entity_class>
+
+    </append>
+</configs>
